@@ -1,0 +1,5 @@
+基于ArcGIS二次开发用Python语言编写，调用ArcPy，通过导入视域点数据，循环处理计算指定缓冲区范围内的可视范围，计算该范围的数据，随后利用分区统计函数，统计导入的指定波段的面积。最后将面积值反过来添加到导入的视域点数据当中，得到每个点能够看到的视域面积的表格。
+为了模拟大量视域点能够看到的占比，通过Python基于ArcGIS二次开发的程序，自动计算点的视域范围，并统计视域当中的指定要素面积，将结果添加到视域点shape的表文件当中便于科研或工程当中的三维视域计算。
+
+The secondary development based on ArcGIS was written in Python language, ArcPy was called, and the visual range within the specified buffer range was computed by importing the view point data, and the data in the range was computed. Then, the area of the specified band imported was counted by using the partition statistical function. Finally, the area value is added to the imported view point data in turn to obtain a table of the view area that each point can see.
+In order to simulate the proportion that a large number of view points can see, the program developed by Python based on ArcGIS is used to automatically calculate the view range of the point, and statistics the area of the specified elements in the view, and the results are added to the table file of the view point shape to facilitate the three-dimensional view calculation in scientific research or engineering.
